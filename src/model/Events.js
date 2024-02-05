@@ -3,9 +3,9 @@ import Consequences from "./Consequences";
 
 const Events = [
     new EventModel(
-        "Neues Foto",
-        `Es ist Zeit für ein neues Foto auf deinem Social-Media-Kanal. Wie möchtest du dich darstellen? `,
-        " Welches Foto von dir willst du posten?",
+        "Нове фото",
+        "Es ist Zeit für ein neues Foto auf deinem Social-Media-Kanal. Wie möchtest du dich darstellen?",
+        "Welches Foto von dir willst du posten?",
         "Ein kreativ inszeniertes Foto aus deinem letzten Urlaub.",
         "Ein Schnappschuss, auf dem du dich mit ein paar Pickelchen darstellst.",
         new Consequences("Du bekommst viele Likes und eine Marke will mit dir Werbung machen.",
