@@ -43,47 +43,33 @@ const App = () => {
                         </Box>
                         <Box>
                             {tab === 0 && <>
-                                <Typography> Du hast mal bei einer TV-Casting-Show mitgemacht und wurdest dadurch
-                                    bekannt. Jetzt kennen dich nicht mehr ganz so viele Leute. Das willst du ändern und
-                                    planst einen Neustart! Ruhm und Geld verdienen stehen für dich an oberster Stelle!
-                                    Hauptsache die Leute kennen dein Gesicht und deinen Namen. Hierfür versuchst du dich
-                                    möglichst attraktiv und sympathisch zu zeigen und einen gewissen Status zu
-                                    vermitteln.</Typography>
+                                <Typography>Однажды вы приняли участие в телевизионном кастинге и в результате стали знаменитым.
+                                    Знаменитым. Теперь вас знает не так много людей. Вы хотите это изменить и
+                                    и планируете начать все сначала! Слава и заработок - вот ваши главные приоритеты!
+                                    Главное, чтобы люди знали вас в лицо и по имени. Для этого вы стараетесь
+                                    как можно более привлекательным и симпатичным и передать определенный статус.
+                                    статус.</Typography>
                             </>}
                             {tab === 1 && <>
-                                <Typography>Du bist ausgebildete Musical-Sängerin und
-                                möchtest jetzt auch auf Social-Media-Angeboten bekannt werden. Dir ist besonders
-                                wichtig, dass du bei deinen Fans glaubwürdig
-                                und vertrauenswürdig rüberkommst. Du
-                                möchtest unbedingt, dass deine Fans dich
-                                mögen. Dafür riskierst du auch, dass du
-                                weniger Geld verdienst oder auch mal private
-                                Informationen von dir preisgeben musst.</Typography>
+                                <Typography>Вы - опытный певец и                                и теперь хотите стать известным в социальных сетях.Для вас особенно важно
+                                    важно, чтобы вы вызывали доверие                                и заслуживающим доверия для ваших поклонников.Вы                                хотите, чтобы вы нравились вашим поклонникам
+                                    нравились. В свою очередь, вы также рискуете                                заработать меньше денег или раскрыть частную
+                                    информацию о себе.</Typography>
                             </>}
                             {tab === 2 && <>
-                                <Typography>Du bist vor allem auf Social-Media-Angeboten
-                                    aktiv und möchtest dort auf jeden Fall noch
-                                    bekannter werden. Du machst am liebsten
-                                    kreative Videos und mystische Fotos und
-                                    versuchst damit ein geheimnisvolles Image zu
-                                    vermitteln. Außerdem hast du bemerkt, dass
-                                    man damit auch Geld verdienen kann. Davon
-                                    darf es gerne noch mehr werden!</Typography>
+                                <Typography>Вы в основном активны в социальных сетях                                    активны и определенно хотели бы стать
+                                    стать более известным. Ваши любимые занятия                                    креативные видео и мистические фотографии и
+                                    и пытаться передать таинственный образ                                    образ. Вы также поняли, что
+                                    на этом можно еще и зарабатывать. Больше этого                                    еще больше!</Typography>
                             </>}
                             {tab === 3 && <>
-                            <Typography>Du bist Handballer und wurdest in die U21
-                                Nationalmannschaft berufen. Seit kurzem
-                                pflegst du auch einen Social-Media-Kanal.
-                                Du bist bodenständig und ein natürlicher
-                                Typ, Familie und Privatleben sind für dich
-                                sehr wichtig. Trotzdem möchtest du mehr in
-                                Kontakt mit deinen Fans treten. Außerdem
-                                bist du an Kooperationen mit bestimmten
-                                Marken interessiert und möchtest deine
-                                Bekanntheit für einen guten Zweck einsetzen.</Typography>
+                            <Typography>Вы - гандболист, и вас вызвали в сборную U21.                                национальную команду. Недавно на сайте
+                                у вас также появился канал в социальных сетях.                                Вы очень добродушны и естественны.                                Семья и личная жизнь очень важны для вас.                                очень важны для вас.Тем не менее, вы хотели бы                                контактировать со своими поклонниками.Кроме того                                вы заинтересованы в сотрудничестве с определенными
+                                брендами и хотели бы использовать свою
+                                популярность в благих целях.</Typography>
                             </>}
                             <Box p={1} display={"flex"} justifyContent={"center"}>
-                                <Button variant={"contained"} onClick={() => setSelect(true)}>Auswählen</Button>
+                                <Button variant={"contained"} onClick={() => setSelect(true)}>Выберите</Button>
                             </Box>
                                 <img src={`./${tab + 1}.png`} alt="" style={{width: "100%"}}/>
 
@@ -104,14 +90,14 @@ const App = () => {
                                     gap: 4,
                                     p: 4
                                 }}>
-                                <Typography variant={"h3"}>Nochmal?</Typography>
+                                <Typography variant={"h3"}>Снова?</Typography>
                                 <Typography><Button variant={"outlined"} onClick={() => {
                                     setIndex(0)
                                     setNoto(0)
                                     setPop(0)
                                     setMoney(0)
                                     setLife(0)
-                                }}>Neu beginnen.</Button></Typography>
+                                }}>Начни сначала.</Button></Typography>
                             </Box>
                         </>}
                     </>

@@ -2,7 +2,7 @@
   "name": "influencer-serious-game",
   "version": "0.0.7",
   "private": true,
-  "homepage": "https://willinger-d.github.io/mein-weg-zum-star/",
+  "homepage": "https://willinger-d.github.io/influencer-ru/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",

@@ -22,13 +22,13 @@ const Header = ({end}) => {
         <AppBar position="static">
             {end && <Box p={5}/>}
             {end &&<Toolbar sx={sx}>
-                <Typography variant={"h3"}>Dein Ergebnis</Typography>
+                <Typography variant={"h3"}>Ваш результат</Typography>
             </Toolbar>}
             <Toolbar sx={sx}>
-                <Stat label={"Bekanntheit"} value={noto}/>
-                <Stat label={"Beliebtheit"} value={pop}/>
-                <Stat label={"Geld"} value={money}/>
-                <Stat label={"Privatleben"} value={life}/>
+                <Stat label={"Информированность"} value={noto}/>
+                <Stat label={"Популярность"} value={pop}/>
+                <Stat label={"Деньги"} value={money}/>
+                <Stat label={"Личная жизнь"} value={life}/>
             </Toolbar>
             {end && <Box p={5}/>}
         </AppBar>

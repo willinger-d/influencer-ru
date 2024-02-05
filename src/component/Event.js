@@ -53,10 +53,10 @@ const Event = ({event, next}) => {
 
                     {consequence && <>
                         <Typography>{consequence.description}</Typography>
-                        <DeltaStat label={"Bekanntheit"} value={consequence.deltaNotoriety}/>
-                        <DeltaStat label={"Beliebtheit"} value={consequence.deltaPopularity}/>
-                        <DeltaStat label={"Geld"} value={consequence.deltaMoney}/>
-                        <DeltaStat label={"Privatleben"} value={consequence.deltaPrivateLife}/>
+                        <DeltaStat label={"Информированность"} value={consequence.deltaNotoriety}/>
+                        <DeltaStat label={"Популярность"} value={consequence.deltaPopularity}/>
+                        <DeltaStat label={"Деньги"} value={consequence.deltaMoney}/>
+                        <DeltaStat label={"Личная жизнь"} value={consequence.deltaPrivateLife}/>
                         <Button onClick={() => {
                             setFLip(false);
                             setTimeout(() => setConsequence(null), 300)
