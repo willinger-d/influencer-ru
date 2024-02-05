@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/influencer-ru/static/css/main.7cd555ea.css",
-    "main.js": "/influencer-ru/static/js/main.486fda6e.js",
+    "main.js": "/influencer-ru/static/js/main.59afa408.js",
     "static/js/787.daf2b90f.chunk.js": "/influencer-ru/static/js/787.daf2b90f.chunk.js",
     "static/media/roboto-latin-500-normal.woff2": "/influencer-ru/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/influencer-ru/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -61,11 +61,11 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/influencer-ru/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/influencer-ru/index.html",
     "main.7cd555ea.css.map": "/influencer-ru/static/css/main.7cd555ea.css.map",
-    "main.486fda6e.js.map": "/influencer-ru/static/js/main.486fda6e.js.map",
+    "main.59afa408.js.map": "/influencer-ru/static/js/main.59afa408.js.map",
     "787.daf2b90f.chunk.js.map": "/influencer-ru/static/js/787.daf2b90f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cd555ea.css",
-    "static/js/main.486fda6e.js"
+    "static/js/main.59afa408.js"
   ]
 }
