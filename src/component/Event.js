@@ -61,7 +61,7 @@ const Event = ({event, next}) => {
                             setFLip(false);
                             setTimeout(() => setConsequence(null), 300)
                             return next();
-                        }}>weiter</Button>
+                        }}>подробнее</Button>
                     </>}
                 </Side>
             </ReactCardFlip>
